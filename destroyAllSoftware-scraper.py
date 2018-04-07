@@ -18,7 +18,7 @@
 		- Keep in mind scraped web text is utf-8 encoding
 		- Your OS may not support file names with special characters so make changes if needed
 
-
+		- Always scrape over VPN for larger projects and if website contains copyrighted material
 		- Code below is not optimized (for lack of time). Pls submit PR with changes and optimizations
 	
 	© 2018 **********
