@@ -2,11 +2,15 @@
 #!/usr/bin/env python
 '''
 	
-	Dependencies
+	Dependencies (Use a virtual environment if you can)
 		- requests (pip install requests)
 		- BeautifulSoup (pip install bs4)
+	
+	BeautifulSoup is nice, easy to use python lib for scraping data off html pages
+		- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+		- You can pick it up within minutes
+	
 
-	Use a virtual environment if you can.
 
 	IMPORTANT NOTES:
 		- Please refactor and modularize code if using in production. 
