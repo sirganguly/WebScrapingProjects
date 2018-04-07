@@ -49,7 +49,7 @@ for h in headlines:
 	#grab the relative url by reading href attribute
 	href = h.get('href')
 	
-	#this check CAN be made better.
+	#this check CAN be made better. 
 	if 'catalog' in str(href) and str(href) != '/screencasts/catalog':
 		count += 1
 
@@ -63,7 +63,7 @@ for h in headlines:
 		#find the text of the <h2> tags. This will be our filename for the mp4 video and accompanying text file
 		headline = new_soup.find('h2').text
 
-		#since the headline will be used as filename, your OS may not allo some of these special characters. 
+		#since the headline will be used as filename, your OS may not allow some of these special characters. 
 		headline = headline.replace('/', '-')
 		headline = headline.replace(',', '-')
 		headline = headline.replace(':', '-')
@@ -84,7 +84,7 @@ for h in headlines:
 		#The code below is for downloading he videos. 
 
 		'''
-			If you the page source, the developer has. not included the video source in the <video> tag.
+			If you see the page source, the developer has not included the video source in the <video> tag.
 			He/She adds the video url on page load to prevent scrapers from getting the URL.
 			The url is thus hidden in the <script> tag. 
 			Using python string find to get the url
