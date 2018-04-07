@@ -1,0 +1,1 @@
+**/details of the scraping projects go here/**
